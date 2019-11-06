@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "index/index",
+    "my/my",
+    "components/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "渠道经纪人",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

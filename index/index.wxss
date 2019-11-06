@@ -1,0 +1,31 @@
+.red-text {
+  color: red;
+}
+.height {
+  height: 44rpx;
+  line-height: 1.5;
+}
+.cu-card.article>.cu-item .pading {
+  padding: 0;
+}
+.mal {
+  margin-left: 15rpx;
+}
+.cu-card.article>.cu-item .content> .png {
+  width: 30rpx;
+  height: 38rpx;
+  vertical-align: middle;
+}
+.right {
+  margin-left: 120rpx;
+}
+.float-r {
+  float: right;
+}
+.float-l{
+  float: left;
+  overflow: h
+}
+.mat {
+  margin-top: 25rpx;
+}

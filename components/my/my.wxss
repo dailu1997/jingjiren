@@ -1,0 +1,15 @@
+/* components/my/my.wxss */
+.recommend {
+  position: fixed;
+  bottom: 160rpx;
+  right: 35rpx;
+  z-index: 9;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  font-size: 24rpx;
+  text-align: center;
+  padding: 20rpx;
+  box-sizing: border-box;
+  line-height: 1.2;
+}
