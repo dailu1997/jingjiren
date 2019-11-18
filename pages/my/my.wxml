@@ -14,8 +14,8 @@
         </view>
       </view>
     </view>
-    <view class="cu-list menu  sm-border card-menu margin-top  margin ">
-      <view class="cu-item arrow ">
+    <view class="cu-list menu  sm-border card-menu margin-top  margin" bindtap="yong">
+       <view class="cu-item arrow ">
          <view class="flex ">
            <image src="/images/y_21.gif" class="png" mode="aspectFit"></image>
             <text class="text-grey mt">我的佣金</text>

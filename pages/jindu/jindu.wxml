@@ -1,0 +1,67 @@
+<!--pages/jindu/jindu.wxml-->
+<view class="white"></view>
+<view class=" cu-list menu-avatar comment  yang " bindtap="jindu">
+  <view class="cu-item">
+    <view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <view class="content">
+      <view class="text-grey flex justify-between">
+        <text>莫甘娜</text>
+        <text class="cuIcon-home lg text-gray"> 瑞闽第一城</text>
+      </view>
+      <view class="text-gray text-content text-df margin-top-sm">
+        <text class="cuIcon-mobile lg text-gray f"></text> 1333333333。
+      </view>
+    </view>
+  </view>
+</view>
+<view class="jiedai ">
+  <view class="content">
+    <image class="png" src="../../images/images/jie_03.gif"></image>
+    接待置业顾问
+  </view>
+  <view class="">
+    <view class="cu-list menu-avatar comment ">
+      <view class="cu-item">
+        <view class="cu-avatar round l" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+        <view class="content">
+          <view class=" flex justify-between">
+            <view class="text-gray text-df">置业顾问甲  <button class="cu-btn round bg-grey sm"role="button"aria-disabled="false">自销</button></view>
+            <view>
+              <text class="cuIcon-mobile text-gray">
+</text> 15929665869
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="jiedai">
+  <view class="content">
+    <image class="png" src="../../images/images/tui_10.gif"></image>
+    推荐进度
+  </view>
+  <view class="tui">
+     <timeAxis isCurent="{{true}}" axisTitle='提交' axisTime="已提交"/>
+<timeAxis axisTitle="推荐中" axisTime="2019-09-09 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="推荐有效" axisTime="2019-09-10 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="已联系" axisTime="2019-09-11 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="已到访" axisTime="2019-09-12 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="推荐待定" axisTime="2019-09-12 22:09:09"  isCurent="{{true}}"/>
+<timeAxis axisTitle="客户有效"  axisTime="2019-05-21 21:09:09" textArray="{{textArray1}}"  isCurent="{{true}}"/>
+<timeAxis axisTitle="已下定" axisTime="2019-09-11 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="已认购" axisTime="2019-09-11 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="已签约" axisTime="2019-09-11 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="已回款" axisTime="2019-09-11 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="审核中" axisTime="2019-09-11 21:09:09" isCurent="{{true}}"/>
+<timeAxis axisTitle="审核通过" axisTime="2019-09-16 21:09:09" isShowLeftLine="{{false}}"/>
+  </view>
+ <view class="content">
+    <image class="png" src="../../images/images/bei_13.gif"></image>
+    备注
+  </view>
+  <view class="text">
+  
+  </view>
+</view>

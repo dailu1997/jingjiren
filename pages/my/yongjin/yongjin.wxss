@@ -1,0 +1,12 @@
+/* my/yongjin/yongjin.wxss */
+@import "../my.wxss";
+page {
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.height {
+  height: 250rpx !important;
+}
+.border {
+  border-radius: 20rpx;
+}

@@ -1,7 +1,10 @@
 <!-- 页面的 WXML -->
 <!-- <my-component my-property="example" /> -->
 <my-component my-property="example" />
-<view class="cu-bar search bg-white">
+<my-customer wx:if="{{PageCur=='component'}}" ></my-customer>
+<my wx:if="{{PageCur=='plugin'}}"></my>
+<view wx:if="{{PageCur=='basics'}}">
+  <view class="cu-bar search bg-white">
     <view class="search-form round">
       <text class="cuIcon-search"></text>
       <input type="text" placeholder="请输入楼盘名称" confirm-type="search"></input>
@@ -22,7 +25,7 @@
   </view>
 </view>
 <view class="cu-card article ">
-  <view class="cu-item shadow">
+  <view class="cu-item shadow" bindtap="xiangqing">
     <view class="title">
       <view class="text-cut" >瑞闽第一城
          <text class="cu-tag line-gray float-r mat">住宅</text>
@@ -92,29 +95,31 @@
 <!-- 推荐 -->
 
 
+
+</view>
 <view class="cu-bar tabbar bg-white shadow foot">
-  <view class="action" bindtap="NavChange" data-cur="basics">
+  <view class="action animation- margin-sm basis-sm shadow" bindtap="NavChange" data-cur="basics">
     <view class='cuIcon-cu-image'>
       <image src="/images/tabbar/basics{{PageCur=='basics'?'_cur':''}}.png"></image>
     </view>
-    <view class="{{PageCur=='basics'?'text-green':'text-gray'}}">元素</view>
+    <view class="{{PageCur=='basics'?'text-green':'text-gray'}}">首页</view>
   </view>
   <view class="action" bindtap="NavChange" data-cur="component">
     <view class='cuIcon-cu-image'>
       <image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
     </view>
-    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">组件</view>
+    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">我的客户</view>
   </view>
   <view class="action" bindtap="NavChange" data-cur="plugin">
     <view class='cuIcon-cu-image'>
       <image src="/images/tabbar/plugin{{PageCur=='plugin'?'_cur':''}}.png"></image>
     </view>
-    <view class="{{PageCur=='plugin'?'text-green':'text-gray'}}">扩展</view>
+    <view class="{{PageCur=='plugin'?'text-green':'text-gray'}}">我的</view>
   </view>
-  <view class="action" bindtap="NavChange" data-cur="about">
+  <!-- <view class="action" bindtap="NavChange" data-cur="about">
     <view class='cuIcon-cu-image'>
       <image src="/images/tabbar/about{{PageCur=='about'?'_cur':''}}.png"></image>
     </view>
     <view class="{{PageCur=='about'?'text-green':'text-gray'}}">关于</view>
-  </view>
+  </view> -->
 </view>

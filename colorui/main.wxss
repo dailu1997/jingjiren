@@ -3192,7 +3192,7 @@ scroll-view.cu-steps .cu-item {
 }
 
 .padding {
-	padding: 30rpx;
+	padding: 30rpx 50rpx;
 }
 
 .padding-lg {

@@ -1,0 +1,43 @@
+/* my/yongjin/fa/fa.wxss */
+page {
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.font {
+  font-size: 32rpx;
+}
+.cu-list.menu-avatar .padding {
+  padding: 0 50rpx;
+  box-sizing: border-box;
+}
+.border {
+  border-radius: 20rpx;
+}
+.back {
+  background-color: #fff;
+}
+.hui {
+  background-color: #e5e5e5;
+  width: 160rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+}
+.style {
+  height: 70rpx;
+  width: 100%;
+  padding: 0;
+  border: 1px solid #e5e5e5;
+}
+.none {
+  border: none;
+}
+.inp {
+  display: inline-block;
+}
+.sss {
+  line-height: 50rpx;
+}
+ .pp {
+  padding:  0 !important;
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-component": "/components/my/my",
+    "my-customer":"/components/Customer/Customer",
+    "my":"/pages/my/my"
+  }
+}

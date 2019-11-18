@@ -1,8 +1,14 @@
 {
   "pages": [
-    "index/index",
-    "my/my",
-    "components/my/my"
+    "pages/index/index",
+    "pages/index/xiang/xiang",
+    "pages/my/my",
+    "pages/my/yongjin/yongjin",
+    "pages/my/yongjin/fa/fa",
+    "components/my/my",
+    "components/Customer/Customer",
+    "components/time/time",
+    "pages/jindu/jindu"
   ],
   "window": {
     "backgroundTextStyle": "light",

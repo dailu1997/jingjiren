@@ -1,0 +1,64 @@
+/* components/Customer/Customer.wxss */
+.body {
+  margin: 0 20rpx;
+  background-color: #fff;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  border-radius: 15rpx;
+}
+.sou {
+background-color: #fff;
+line-height: 64rpx;
+height: 64rpx;
+font-size: 24rpx;
+color: var(--black);
+flex: 1;
+display: flex;
+align-items: center;
+margin: 0 20rpx;
+padding: 0 20rpx;
+}
+.margin-r {
+  margin-right: 20rpx;
+}
+.gao {
+  position: relative;
+border: 0rpx;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+padding: 0 15rpx;
+font-size: 24rpx;
+height: 58rpx;
+line-height: 1;
+text-align: center;
+text-decoration: none;
+overflow: visible;
+margin-left: initial;
+transform: translate(0rpx, 0rpx);
+margin-right: initial;
+margin: 20rpx 20rpx 0 27rpx;
+width: 132rpx;
+}
+.fle {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.f {
+  font-size: 40rpx;
+}
+.yang {
+  margin: 20rpx;
+  border-radius: 15rpx;
+}
+.shad {
+box-shadow:0px 2px 4px 2px #DDDDDD;
+}
+.ju {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}

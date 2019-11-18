@@ -1,0 +1,43 @@
+<!--my/yongjin/fa/fa.wxml-->
+<view wx:if="{{title == '已发'}}">
+<view class="cu-list menu-avatar border">
+  <view class="cu-item padding">
+    <!-- <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);">
+      </view> -->
+    <view class=" flex-sub">
+      <view class="text-grey">瑞闽第一城</view>
+      <view class="text-gray text-sm flex justify-between">
+        我推荐的客户名称
+        <view class="text-gray text-sm">
+
+          佣金：
+          <text class="text-price  text-red">
+     </text>
+          <text class="text-red font"> 8000</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+</view>
+
+<view wx:if="{{title == '提现'}}" class="padding back">
+<form>
+  <view class="cu-form-group pp">
+<view class="inp hui">银行卡</view>
+<input placeholder="" class="style inp">
+统一标题的宽度
+</input>
+</view>
+<view class="cu-form-group pp">
+<view class=" hui">提现金额</view>
+<input placeholder="" class="style">
+统一标题的宽度
+</input>
+</view>
+<view>
+  可提现 ： 8000元       <text>全部提现</text>
+</view>
+<button class="cu-btn block bg-blue margin-tb-sm lg"role="button"aria-disabled="true">确认提现</button>
+</form>
+</view>

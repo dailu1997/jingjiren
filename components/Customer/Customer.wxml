@@ -1,0 +1,66 @@
+<!--components/Customer/Customer.wxml-->
+<view class="cu-bar search ">
+  <view class="sou round bg-white shad ">
+    <text class="cuIcon-search margin-r">
+
+</text>
+    <input placeholder="搜索图片、文章、视频" type="text"> 搜索图片、文章、视频
+    </input>
+  </view>
+
+</view>
+<view class="body shad fle">
+   <view class="ju">
+       <button class="cu-btn round {{id == '1' ? '' : 'lines-grey'}} gao {{id == '1' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="1" >全部</button>
+    <button class="cu-btn round {{id == '2' ? '' : 'lines-grey'}} gao {{id == '2' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="2" >无效</button>
+    <button class="cu-btn round {{id == '3' ? '' : 'lines-grey'}} gao {{id == '3' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="3" >推荐中</button>
+    <button class="cu-btn round {{id == '4' ? '' : 'lines-grey'}} gao {{id == '4' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="4" >推荐有效</button>
+   </view>
+   <view class="ju">
+    <button class="cu-btn round {{id == '5' ? '' : 'lines-grey'}} gao {{id == '5' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="5" >已联系</button>
+    <button class="cu-btn round {{id == '6' ? '' : 'lines-grey'}} gao {{id == '6' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="6" >已到访</button>
+    <button class="cu-btn round {{id == '7' ? '' : 'lines-grey'}} gao {{id == '7' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="7" >推荐待定</button>
+    <button class="cu-btn round {{id == '8' ? '' : 'lines-grey'}} gao {{id == '8' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="8" >已下定</button>
+   </view>
+   <view class="ju">
+    <button class="cu-btn round {{id == '9' ? '' : 'lines-grey'}} gao {{id == '9' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="9" >已认购</button>
+    <button class="cu-btn round {{id == '10' ? '' : 'lines-grey'}} gao {{id == '10' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="10" >已签约</button>
+    <button class="cu-btn round {{id == '11' ? '' : 'lines-grey'}} gao {{id == '11' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="11" >已回款</button>
+    <button class="cu-btn round {{id == '12' ? '' : 'lines-grey'}} gao {{id == '12' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="12" >审核中</button>
+   </view>
+   <button class="cu-btn round {{id == '13' ? '' : 'lines-grey'}} gao {{id == '13' ? 'bg-gradual-purple' : ''}} shadow-blur" role="button" aria-disabled="false" bindtap="active" data-id="13" >审核通过</button>
+</view>
+<view class=" cu-list menu-avatar comment solids-top yang shad" bindtap="jindu">
+  <view class="cu-item">
+    <view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <view class="content">
+      <view class="text-grey flex justify-between">
+        <text>莫甘娜</text>
+        <text class="text-red">已通过</text>
+      </view>
+
+      <view class="text-gray text-content text-df margin-top-sm">
+        <text class="cuIcon-mobile lg text-gray f"></text> 1333333333。 </view>
+      <!-- <view class="bg-grey padding-sm radius margin-top-sm text-sm">
+        <view class="flex">
+          <view>凯尔：</view>
+          <view class="flex-sub">妹妹，你在帮他们给黑暗找借口吗?</view>
+        </view>
+      </view> -->
+      <view class="margin-top-sm ">
+        <view class="text-gray text-df">推荐楼盘 ： 瑞闽第一城</view>
+        <view class="text-gray text-df">推荐时间 ： 2019年09月10日</view>
+        <view class="text-gray text-df">接待置业顾问 ： 置业顾问甲</view>
+        <view class="text-gray text-df">置业顾问电话 ： 15929665869</view>
+        <view>
+          <!-- <text class="cuIcon-appreciatefill text-red">
+
+</text>
+<text class="cuIcon-messagefill text-gray margin-left-sm">
+
+</text> -->
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

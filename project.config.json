@@ -49,8 +49,15 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "my/my",
-					"pathName": "my/my",
+					"name": "pages/my/my",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/jindu/jindu",
+					"pathName": "pages/jindu/jindu",
 					"query": "",
 					"scene": null
 				}
