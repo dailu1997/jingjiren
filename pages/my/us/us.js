@@ -1,22 +1,41 @@
-// components/my/my.js
+// pages/my/we/we.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    problem: [
+      '无法打开小程序', '小程序卡顿', '黑白屏', '小程序闪退', '页面加载慢', '界面错位'
+    ],
+    tel: '13325381716'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var name = options.name;
+    wx.setNavigationBarTitle({
+      title: name,
+    })
   },
-  tui:function () {
-    wx.navigateTo({
-      url: '../../pages/index/tui/tui',
+  calling: function () {
+    let that = this
+    console.log(that.data.tel)
+    wx.makePhoneCall({
+      phoneNumber: that.data.tel, //此号码并非真实电话号码，仅用于测试
+      success: function () {
+        console.log("拨打电话成功！")
+      },
+      fail: function () {
+        console.log("拨打电话失败！")
+      }
+    })
+  },
+  tijiao: function () {
+    wx.showToast({
+      title: '提交成功',
     })
   },
   /**

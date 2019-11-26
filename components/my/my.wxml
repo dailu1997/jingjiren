@@ -1,4 +1,4 @@
 <!--components/my/my.wxml-->
-<view class="recommend bg-gradual-blue shadow-blur" >
+<view class="recommend bg-gradual-blue shadow-blur" bindtap="tui" >
   推荐客户
 </view>

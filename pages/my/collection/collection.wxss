@@ -1,0 +1,27 @@
+/* pages/my/collection/collection.wxss */
+.png {
+   width: 30rpx !important;
+  height: 38rpx !important;
+  vertical-align: middle;
+}
+.float-r {
+
+  float: right;
+}
+.cu-card.article>.cu-item .pading {
+  padding: 0;
+}
+.m {
+  margin-top: 7rpx;
+  margin-right: 20rpx;
+}
+.f {
+  font-size: 32rpx;
+  margin: 5rpx 0;
+}
+.right {
+  margin-left: 100rpx;
+}
+.pa-t{
+  padding-top: 30rpx;
+}

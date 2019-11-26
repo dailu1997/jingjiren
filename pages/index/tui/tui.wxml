@@ -1,0 +1,36 @@
+<!--pages/index/tui/tui.wxml-->
+<view class="body">
+  <view class="cu-form-group">
+    <view class="title">客户姓名</view>
+    <input placeholder="请输入姓名"> 请输入姓名
+    </input>
+  </view>
+  <view class="cu-form-group">
+    <view class="title">客户性别</view>
+    <view class="cu-form-group">
+      <switch class="switch-sex">
+       
+      </switch>
+    
+    </view>
+  </view>
+  <view class="cu-form-group">
+    <view class="title">客户电话</view>
+    <input placeholder="统一标题的宽度"> 请输入电话
+    </input>
+  </view>
+  <view class="cu-form-group">
+    <view class="title">推荐楼盘</view>
+    <input placeholder="统一标题的宽度"> 瑞闽第一城
+    </input>
+  </view>
+  <!-- <view class="cu-form-group"> -->
+  <view class="cu-form-group ">
+    <!-- <view class="title">瑞闽第一城</view> -->
+    <textarea bindinput="textareaAInput" maxlength="-1" placeholder="备注： 请输入补充说明内容(选填)">
+      备注： 请输入补充说明内容(选填)
+    </textarea>
+  </view>
+  <!-- </view> -->
+  <button class="cu-btn block bg-blue margin-tb-sm lg"role="button"aria-disabled="true">确认推荐</button>
+</view>

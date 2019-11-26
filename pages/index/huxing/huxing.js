@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    state:'video',
+    state: 'video',
     latitude: 23.099994,
     longitude: 113.324520,
     markers: [{
@@ -52,7 +52,7 @@ Page({
       type: 'image',
       url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg'
     }],
-    num:0
+    num: 0
   },
 
   /**
@@ -63,40 +63,25 @@ Page({
       title: t.name,
     })
   },
-  moreNews:function () {
-    wx.navigateTo({
-      url: '../more/more?name=楼盘详情',
-    })
-  },
-  change:function (e) {
-    var that = this 
+
+  change: function (e) {
+    var that = this
     that.setData({
-  
       num: e.currentTarget.dataset.id
     })
-  }, 
-  
-  chang:function (e) {
+  },
+
+  chang: function (e) {
     console.log(e)
-    var that = this 
+    var that = this
     that.setData({
       num: e.detail.current
     })
   },
-  hu:function (e) {
-   console.log(e.currentTarget.dataset.name);
-   wx.navigateTo({
-     url: '../huxing/huxing?name=' + e.currentTarget.dataset.name,
-   })
-  },
-  all:function () {
+  hu: function (e) {
+    console.log(e.currentTarget.dataset.name);
     wx.navigateTo({
-      url: '../news/news?name=最新动态',
-    })
-  },
-  zixun:function (){
-    wx.navigateTo({
-      url: '../zixun/zixun?name=咨询',
+      url: '../huxing/huxing?name=' + e.currentTarget.dataset.name,
     })
   },
   /**
@@ -105,7 +90,7 @@ Page({
   onReady: function () {
 
   },
-  
+
   /**
    * 生命周期函数--监听页面显示
    */

@@ -1,0 +1,14 @@
+/* pages/index/tui/tui.wxss */
+page {
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.body {
+  padding: 20rpx 25rpx;
+  box-sizing: border-box;
+  border-radius:15rpx;
+  background-color: #fff;
+}
+.block {
+  display: block;
+}

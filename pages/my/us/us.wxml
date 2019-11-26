@@ -1,0 +1,38 @@
+<!--pages/my/we/we.wxml-->
+<view class='fankui'>
+  <view class='fan'>
+   
+    <text>问题反馈</text>
+  </view>
+  <view class='xuanze'>
+    <view class='wenti' wx:for="{{problem}}" wx:key data-id="{{index}}">
+      <checkbox-group name="checkbox">
+      <label><checkbox class="blue"  value="checkbox1"/>{{item}}</label>
+    </checkbox-group>
+    </view>
+  </view>
+  <text class='yichang'>其他异常</text>
+   <textarea class="detailText" 
+    placeholder="输入您的备注"
+    bindblur="bindTextAreaBlur">
+    
+   </textarea>
+   <button class='tijiao  tt bg-blue' bindtap="tijiao ">提交</button>
+</view>
+<view class='fankui '>
+  <view class='fan'>
+    
+    <text>加入我们</text>
+  </view>
+  <input class='yao' placeholder='请填写邀请码'></input>
+  <button class='tijiao in bg-blue' bindtap="tijiao">提交</button>
+</view>
+<view class='fankui '>
+  <view class='fan'>
+    <text>鼎信达简介</text>
+    <!-- <text class='gongsi'>三立·逸丰国际小程序官方平台是西安鼎信达网络科技有限公司研发 </text>
+    <view class='gongsi wi'>咨询电话 13325381716 <view class="calling" bindtap="calling">拨打</view></view>  -->
+  </view>
+  
+  
+</view>

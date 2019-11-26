@@ -1,0 +1,25 @@
+<!--pages/my/rule/rule.wxml-->
+<view class="body">
+  <view>活动对象</view>
+  <text class="text-gray">已注册的渠道经纪人</text>
+</view>
+<view class="body">
+  <view>活动时间</view>
+  <text class="text-gray">2019年12月12日——2020年01月30日</text>
+</view>
+<view class="body">
+  <view>参与项目</view>
+  <text class="text-gray">xx地产旗下的xx楼盘。</text>
+</view>
+<view class="body">
+  <view>参加条件</view>
+  <text class="text-gray">关注项目官方小程序，并成功注册，方可获得推荐资格</text>
+</view>
+<view class="body">
+  <view>使用范围</view>
+  <text class="text-gray">渠道经纪人,机构经纪人推荐xx地产的所有楼盘</text>
+</view>
+<view class="body">
+  <view>推荐规则</view>
+  <text class="text-gray">先通过小程序推荐按钮，填写客户资料...</text>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/my/bang/bang.wxml-->
+<view class="body">
+  <view class="cu-form-group">
+    <text class="title" decode="{{true}}">姓&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;名</text>
+    <input placeholder="请输入持卡人真实姓名"> 统一标题的宽度
+    </input>
+  </view>
+   <view class="cu-form-group">
+    <text class="title" decode="{{true}}">身&ensp;份&ensp;证&ensp;号&ensp;码</text>
+    <input placeholder="请输入身份证号"> 统一标题的宽度
+    </input>
+  </view>
+   <view class="cu-form-group">
+    <text class="title" decode="{{true}}">银&ensp;&ensp;&ensp;&ensp;行&ensp;&ensp;&ensp;&ensp;卡</text>
+    <input placeholder="请输入银行卡号"> 统一标题的宽度
+    </input>
+    <text class="cuIcon-infofill text-blue">
+
+</text>
+  </view>
+   <view class="cu-form-group">
+    <view class="title">银行预留手机号</view>
+    <input placeholder="请输入手机号"> 统一标题的宽度
+    </input>
+  </view>
+  
+ 
+  <view class="zhu">注： 为了避免您无法获得佣金,请填写真实有效的信息,其中银行卡预留手机号需和登录手机号一致。</view>
+</view>
+<button class="cu-btn block bg-blue margin-tb-sm lg bo"role="button"aria-disabled="true">无效状态</button>

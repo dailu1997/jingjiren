@@ -1,0 +1,36 @@
+<!--pages/index/news/news.wxml-->
+<scroll-view scroll-x='true'   class="dongtai">
+   <view class="ww">
+     <button class="cu-btn round bg-blue"role="button"aria-disabled="false">全部动态(8)</button>
+     <button class="cu-btn round"role="button"aria-disabled="false">楼盘新闻(2)</button>
+     <button class="cu-btn round "role="button"aria-disabled="false">销控信息(2)</button>
+     <button class="cu-btn round "role="button"aria-disabled="false">施工进度(2)</button>
+     <button class="cu-btn round "role="button"aria-disabled="false">其他(2)</button>
+   </view>
+</scroll-view>
+<view class="li">
+  <text decode="{{true}}" class="litext">瑞闽第一城3#楼盘已开启</text>
+  <view class="action">
+    <text class="cuIcon-title text-blue ma">
+    </text>
+    <text decode="{{true}}" class="wi">瑞闽第一城3#楼目前已开盘，共128套房源,建筑面积117m²-144m²,公示均价5000元/m²，具体一房一价。</text>
+  </view>
+  <view class="text-blue time">
+     2019-08-30
+  </view>
+</view>
+<view class="li">
+  <text decode="{{true}}" class="litext">瑞闽第一城3#楼盘已开启</text>
+  <view class="action">
+    <text class="cuIcon-title text-blue ma">
+    </text>
+    <view decode="{{true}}" class="wi">瑞闽第一城3#楼目前已开盘，共128套房源,建筑面积117m²-144m²,公示均价5000元/m²，具体一房一价...
+     <text class="text-blue">全部</text>
+    </view>
+   
+  </view>
+  
+  <view class="text-blue time">
+     2019-08-30
+  </view>
+</view>

@@ -1,0 +1,25 @@
+/* pages/my/bang/bang.wxss */
+page {
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.body {
+  padding: 20rpx;
+  box-sizing: border-box;
+  border-radius:15rpx; 
+}
+.he {
+  height: 1rpx !important;
+}
+.zhu {
+  padding: 30rpx 55rpx;
+  box-sizing: border-box;
+  border-top: 1rpx solid #eee;
+  background-color: #fff;
+  font-size: 22rpx;
+}
+.bo {
+  
+  bottom: -476rpx;
+  
+}

@@ -44,20 +44,24 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
 					"id": 0,
 					"name": "pages/my/my",
-					"pathName": "pages/my/my",
+					"pathName": "pages/my/us/us",
 					"query": "",
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 1,
 					"name": "pages/jindu/jindu",
-					"pathName": "pages/jindu/jindu",
+					"pathName": "pages/index/xiang/xiang",
 					"query": "",
 					"scene": null
 				}

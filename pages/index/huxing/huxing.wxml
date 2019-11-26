@@ -1,0 +1,105 @@
+<!--pages/index/huxing/huxing.wxml-->
+<!--index/xiang/xiang.wxml-->
+<scroll-view>
+
+  <view class="topbanner">
+    <!-- <view class="video"  bindtouchstart='touchStart' bindtouchend="touchEnd">  <!-- wx:if="{{state == 'video'}}" -->
+
+    <swiper class="screen-swiper square-dot" indicator-dots="true" circular="true" current="{{num}}" bindchange="chang" interval="5000" duration="500">
+      
+      <swiper-item class="video">
+        <view class="panorama">
+          <!-- wx:if="{{state == 'panorama'}}" -->
+          户型图
+        </view>
+      </swiper-item>
+      <swiper-item class="video" data-name="images">
+        <swiper class="screen-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+          <swiper-item wx:for="{{swiperList}}" wx:key>
+            <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+            <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+          </swiper-item>
+        </swiper>
+      </swiper-item>
+    </swiper>
+
+    <view class="dao">
+  
+      <text class="{{num == '0' ? 'active' :''}}" catchtap="change" data-name="panorama" data-id="0">户型图</text>
+      <text catchtap="change" data-name="images" class="{{num == '1' ? 'active' :''}}" data-id="1">样板间</text>
+    </view>
+  </view>
+
+  <view class="body">
+    <view class="text-black font">
+      A户型
+    </view>
+    
+    <view class="news">
+      <button class="cu-btn bg sm ma" role="button" aria-disabled="false">大户型</button>
+      <button class="cu-btn bg sm ma" role="button" aria-disabled="false">双卫生间</button>
+      <button class="cu-btn bg sm ma" role="button" aria-disabled="false">厨卫分明</button>
+    </view>
+    <view class="text-black font ma-b">
+      2室2厅2卫  141.02m² <text class="text-red"> 约75万</text>
+    </view>
+    <view class="new">
+     
+        <text>所在楼栋：</text>
+        <text class="text-black">1号楼</text>
+    
+    </view>
+    <view class="new">
+     
+        <text>首付预算：</text>
+        <text class="text-black">30% 22.5万,月供2100元</text>
+     
+      
+    </view>
+    <view class="new">
+      
+        <text>所属楼盘：</text>
+        <text class="">瑞闽第一城</text>
+
+      
+    </view>
+    <view class="new">
+      <text>楼盘地址：</text>
+      <text class="color"> 兴平市城北生态公园以南兴店路以西，兴礼路以东</text>
+      <!-- <text class="cuIcon-location lg color mar"></text> -->
+    </view>
+    
+  </view>
+
+  
+  <view class="body">
+    <view class="text-black font">
+      位置及周边配套
+    </view>
+    <map
+      id="myMap"
+      style="width: 100%; height: 308rpx;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    ></map>
+
+    <view class="xing">
+     公交  <text>2km内共两个</text>
+    </view>
+    <view class="xing">
+      桥底店南 【36路，785路，高新2路】   <text class="cuIcon-location"></text><text>144M</text>
+    </view>
+     <view class="xing">
+      马王郭 【25路，236路】   <text class="cuIcon-location"></text><text>988M</text>
+    </view>
+    <button class="cu-btn block line-orange lg"role="button"aria-disabled="false"> <text class="cuIcon-comment"></text> 咨询周边配套及规划</button>
+  </view>
+
+  <!-- 底部 -->
+ 
+
+
+</scroll-view>

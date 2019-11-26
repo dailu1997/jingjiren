@@ -1,4 +1,4 @@
-// components/my/my.js
+// pages/index/more/more.js
 Page({
 
   /**
@@ -11,14 +11,13 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function (t) {
+      var that = this;
+     wx.setNavigationBarTitle({
+       title: t.name,
+     })
+  },
 
-  },
-  tui:function () {
-    wx.navigateTo({
-      url: '../../pages/index/tui/tui',
-    })
-  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

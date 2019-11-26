@@ -27,6 +27,26 @@ Component({
       wx.navigateTo({
         url: '/pages/my/yongjin/yongjin?name=我的拥金',
       })
+    },
+    money:function () {
+      wx.navigateTo({
+        url: '/pages/my/bang/bang?name=绑定银行卡',
+      })
+    },
+    rule:function () {
+      wx.navigateTo({
+        url: '/pages/my/rule/rule?name=活动规则',
+      })
+    },
+    collection:function () {
+      wx.navigateTo({
+        url: '/pages/my/collection/collection?name=我的收藏',
+      })
+    },
+    us:function () {
+      wx.navigateTo({
+        url: '/pages/my/us/us?name=联系我们',
+      })
     }
   }
 })

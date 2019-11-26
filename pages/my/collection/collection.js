@@ -1,4 +1,4 @@
-// components/my/my.js
+// pages/my/collection/collection.js
 Page({
 
   /**
@@ -14,11 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-  tui:function () {
-    wx.navigateTo({
-      url: '../../pages/index/tui/tui',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

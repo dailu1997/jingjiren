@@ -1,0 +1,31 @@
+<!--pages/my/collection/collection.wxml-->
+<view class="cu-card article ">
+  <view class="cu-item shadow pa-t" bindtap="xiangqing">
+    <view class="title">
+      
+      
+    </view>
+    <view class="content">
+      <image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg" mode="aspectFill"></image>
+      <view class="desc">
+        <!-- <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view> -->
+        <view class="cu-item height ">
+        <view class="text-cut f" >瑞闽第一城
+        
+      </view>
+          <view class="content pading">
+             <text class="cuIcon-location lg text-gray m"></text>
+             <text class="text-grey mal">兴平市</text>
+          </view>
+        </view>
+        <view class="cu-item height">
+           <view class="content pading">
+              <image src="/images/yong.gif" class="png" mode="aspectFit"></image>
+              <text class=" text-red">2-3万</text> <text class="text-red right">5000元/m²</text>
+        </view>
+    </view>
+       <text class="text-grey">2019-10-15 12:00</text>
+      </view>
+    </view>
+  </view>
+</view>
